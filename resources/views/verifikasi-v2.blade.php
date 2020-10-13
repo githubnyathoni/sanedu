@@ -21,19 +21,7 @@
 
 <div class="container">
     <div class="d-flex justify-content-center mt-5">
-        <h4>Verifikasi Pembayaran</h4>
-    </div>
-
-    <div class="card mt-5 shadow bg-white rounded w-50 mx-auto">
-        <div class="card-body text-center">
-            <h5>Unggah bukti pembayaran</h5>
-            <form method="POST" action="{{ route('verifikasi_store')}}" enctype="multipart/form-data">
-                @csrf
-                <input class="mt-4" type="file" name="image" accept="image/*" required>
-                <hr>
-                <button type="submit" class="btn btn-success btn-lg btn-block mt-4">KIRIM</button>
-            </form>
-        </div>
+        <h4>Menunggu Verifikasi Pembayaran</h4>
     </div>
 
     <div class="card mt-5 shadow rounded w-50 mx-auto" style="background-color:#e8f8eb;">

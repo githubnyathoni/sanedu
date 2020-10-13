@@ -16,4 +16,9 @@ class Order extends Model
         'total',
         'status'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo('App\Models\User');
+    }
 }

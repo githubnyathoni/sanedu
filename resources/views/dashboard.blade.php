@@ -1,13 +1,17 @@
 @extends('layouts.master')
+@section('css')
+    <link rel="stylesheet" href="{{asset('css/image-picker.css') }}">
+@endsection
+
 @section('content')
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d2d5dc;">
-    <img class="navbar-brand" src="{{ asset('logo.png')}}">
+    <a href="\"><img class="navbar-brand" src="{{ asset('logo.png')}}"></a>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
       
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Hallo, {{ $user->name }}
+        Hallo, {{ Auth::user()->name }}
       </a>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
         <form method="POST" action="{{ route('logout') }}">
@@ -36,27 +40,27 @@
                 <div class="col-sm-2 col-md-2">
                     <img src="{{ asset('logo_legacy_2.png')}}" width="100px"/>
                 </div>
-                <div class="col-sm-8 col-md-8">
+                <div class="col col-md-8">
                     <p class="font-weight-bold">Legacy Project III</p>
                 </div>
-                <div class="col-sm-2 col-md-2">
-                    <p class="text-right font-weight-bold">Rp. {{$product->price}}</p>
+                <div class="col col-md-2">
+                    <p class="text-right font-weight-bold">@currency($product->price)</p>
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="col-2 mt-1">
+                <div class="col mt-1">
                     <p class="text-left">Diskon 90%</p>
                 </div>
-                <div class="col-2 mt-1">
-                    <p class="text-right text-danger">- Rp. {{$product->price*0.9}}</p>
+                <div class="col mt-1">
+                    <p class="font-weight-bold text-right text-danger">- @currency($product->price*0.9)</p>
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="col-2">
+                <div class="col">
                     <p class="font-weight-bold text-left">Total</p>
                 </div>
-                <div class="col-2">
-                    <p class="font-weight-bold text-right">Rp. 250000</p>
+                <div class="col">
+                    <p class="font-weight-bold text-right">Rp. 250.000</p>
                 </div>
             </div>
             <div class="row">
@@ -71,7 +75,7 @@
         </div>
     </div>
 
-    <div class="card mt-5 shadow bg-white rounded">
+    <div class="card mt-5 mb-5 shadow bg-white rounded">
         <div class="card-body">
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -83,8 +87,22 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            Syaratnya kamu tidak boleh menuntut kami.
-                            Sip, Thank You.
+                            <p class="text-justify">Sebelum Anda membeli  dan menggunakan paket pendampingan Legacy Project pastikan Anda telah membaca, memahami, dan menyetujui semua persyaratan. Dengan membeli dan menggunakan paket pendampingan Legacy Project, kami menganggap Anda telah membaca, memahami dan menerima persyaratan penggunaan yang berlaku.</p>
+                            <h5>Lisensi & Penggunaan</h5>
+                            <p class="text-justify">Legacy project adalah program pendampingan dibawah naungan Lembaga Konsultan dan Pendampingan Belajar Sanedu Indonesia salah satu unit usaha dari PT. Wahana Gerak Indonesia, seluruh user dari legacy project akan diberikan seluruh fasilitas yang telah tercantum pada brosur promosi dan landing page website legacy project. Seluruh user wajib untuk mentaati seluruh aturan yang berlaku meliputi:</p>
+                            <ul>
+                                <li><p class="text-justify">Seluruh soal dan pembahasan pada program ini adalah bagian yang tak terpisahkan dari Sanedu yang dilindungi oleh hak cipta, maka seluruh user dilarang menyebarluaskan dan memperbanyak seluruh elemen di dalamnya tanpa sepengetahuan dan izin tertulis dari Sanedu Indonesia.</p></li>
+                                <li><p class="text-justify">Seluruh siswa wajib menjaga kondusifitas jalannya program ini, dengan tidak mengganggu privasi dari user lain atau menggunakan fasilitas yang ada untuk kepentingan pribadi yang tidak berkaitan dengan program ini.</p></li>
+                                <li><p class="text-justify">Jika user melanggar poin 1 dan 2 dan atau menimbulkan kerugian bagi user lain atau Sanedu Indonesia, maka pihak sanedu berhak untuk mengeliminir user dari program ini tanpa ganti rugi.</p></li>
+                            </ul>
+                            <h5>Pembayaran</h5>
+                            <p class="text-justify">Pembayaran dapat dilakukan melalui transfer bank (BCA, Mandiri & ATM Bersama) dan kartu kredit (via Paypal). Anda juga dapat melakukan pembelian secara offline dengan datang langsung ke kantor kami. Tidak diperbolehkan membeli dengan sistem patungan/urunan karena keanggotaan (membership) hanya untuk perorangan saja.</p>
+                            <h5>Dukungan & Bantuan</h5>
+                            <p class="text-justify">Kami menyediakan layanan dukungan melalui helpdesk member area dengan mengirimkan ticket support. Pastikan Anda mengirimkan ticket support sesuai format yang dijelaskan pada halaman helpdesk.</p>
+                            <p class="text-justify">Kami juga membuka semua jalur komunikasi (email, telepon, sms dan konsultasi langsung ke kantor Sanedu indonesia) kepada Anda agar dapat dengan leluasa menghubungi kami kapanpun Anda mau. Layanan dukungan selain melalui helpdesk member area, Anda diharuskan memberikan informasi terkait userid dan email Anda yang terdaftar di akun Legacy Project. Hal ini akan memungkinkan kami untuk memverifikasi apakah Anda berhak untuk menerima dukungan.</p>
+                            <h5>Privacy Policy</h5>
+                            <p class="text-justify">Seluruh data user dan hasil analisis user berhak dipergunakan Sanedu Indonesia dalam hal kepentingan Sanedu Indonesia, baik untuk promosi, pengumpulan testimony, survei dan hal hal lain yang berkaitan dengan proses usaha Sanedu Indonesia. Dan sanedu wajib menjaga kerahasiaan data data tersebut yang dapat disalahgunakan oleh pihak lain. Sanedu Indonesia juga tidak ada kewajiban apapun kepada user dalam hal penggunaan data untuk kepentingan Sanedu Indonesia.</p>
+                            <p class="text-justify">Kebijakan ini tidak mengikat dan Sanedu Indonesia berhak untuk melakukan berbagai perubahan di masa mendatang.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -95,23 +113,12 @@
             <form method="POST" action="{{ route('order')}}">
                 @csrf
                 <h4 class="mt-2">Pilih metode pembayaran</h4>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-primary active">
-                        <input type="radio" name="options" id="dana" value="1" required>Dana
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="options" id="gopay" value="2">Gopay
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="options" id="bri" value="3">BRI
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="options" id="bni" value="4">BNI
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="options" id="alfamart" value="5">Alfamart
-                    </label>
-                </div>
+                <select name="metode" class="image-picker show-html">
+                    <option data-img-src="{{ asset('bni.jpg')}}" value="1">Cute Kitten 1</option>
+                    <option data-img-src="{{ asset('bri.jpg')}}" value="2">Cute Kitten 1</option>
+                    <option data-img-src="{{ asset('dana.jpg')}}" value="3">Cute Kitten 1</option>
+                    <option data-img-src="{{ asset('gopay.jpg')}}" value="4">Cute Kitten 1</option>
+                </select>
                 <div class="form-check mt-2">
                     <input class="form-check-input" type="checkbox" name="snk" required>
                     <label class="form-check-label" for="defaultCheck1">
@@ -121,7 +128,7 @@
                 <div class="row">
                     <div class="col">
                         <p class="font-weight-bold mt-2 mb-0">Total Bayar</p>
-                        <h5>Rp. 250000</h5>
+                        <h5>Rp. 250.000</h5>
                     </div>
                     <div class="col">
                         <button type="submit" class="btn btn-success btn-lg float-right">Bayar Sekarang</button>
@@ -132,4 +139,10 @@
     </div>
 </div>
 
+@endsection
+
+@section('scripts')
+    <script src="{{asset('js/image-picker.js') }}"></script>
+    <script src="{{asset('js/image-picker.min.js') }}"></script>
+    <script>$("select").imagepicker()</script>
 @endsection

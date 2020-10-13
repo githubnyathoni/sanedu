@@ -28,7 +28,9 @@ class User extends Authenticatable
         'email',
         'password',
         'school',
-        'phone_number'
+        'phone_number',
+        'role',
+        'recomendation'
     ];
 
     /**
@@ -60,4 +62,9 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function order()
+    {
+        return $this->hasOne('App\Models\Order');
+    }
 }

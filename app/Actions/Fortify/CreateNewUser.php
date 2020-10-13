@@ -20,6 +20,10 @@ class CreateNewUser implements CreatesNewUsers
      */
     public function create(array $input)
     {
+        $nohp = $input['phone_number'];
+        if(substr(trim($nohp), 0, 1)=='0'){
+            $nohp = '62'.substr(trim($nohp), 1);
+        }
         Validator::make($input, [
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
         ])->validate();
@@ -29,7 +33,8 @@ class CreateNewUser implements CreatesNewUsers
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
             'school' => $input['school'],
-            'phone_number' => $input['phone_number']
+            'phone_number' => $nohp,
+            'role' => "user"
         ]);
     }
 }

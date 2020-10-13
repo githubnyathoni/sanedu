@@ -25,7 +25,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nomor WhatsApp*</label>
-                    <input type="number" class="form-control" name="phone_number" required>
+                    <input type="number" placeholder="628310507XXXX"class="form-control" name="phone_number" required>
                 </div>
                 <h4>Informasi Akun</h4>
                 <p class="mb-0">Informasi ini digunakan untuk login dan memanfaatkan fasilitas yang disediakan.</p>

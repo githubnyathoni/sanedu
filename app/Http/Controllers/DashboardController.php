@@ -6,22 +6,28 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Order;
 use App\Models\User;
+use App\Models\Bank;
 use Illuminate\Support\Facades\Auth;
 
 
 class DashboardController extends Controller
 {
     public function index(){
-        $id = Order::where('user_id', Auth::id())->first('status');
+        $id = Order::where('user_id', Auth::id())->first();
+        $bank = Bank::where('id', $id->payment)->first();
         $user = User::find(Auth::id());
         $product = Product::first();
-        if($id == null){
-            return view('dashboard',compact('user', 'product'));
+        if($user->role == 'admin'){
+            return view('admin.dashboard');
+        }else{
+            if($id == null){
+                return view('dashboard',compact('user', 'product'));
+            }else if($id->status == 2){
+                return view('dashboard-verified')->with('user',$user);
+            }
+            else{
+                return view('dashboard-v2',compact('bank', 'product'));
+            }
         }
-        else if($id->status == 0){
-            
-            return view('dashboard-v2',compact('user', 'product'));
-        }
-
     }
 }

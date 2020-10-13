@@ -26,3 +26,4 @@ Route::get('/verifikasi', [OrderController::class, 'verifikasi'])->middleware('a
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::post('/order', [OrderController::class, 'order'])->name('order');
+Route::post('/verifikasi', [OrderController::class, 'verifikasi_store'])->name('verifikasi_store');
