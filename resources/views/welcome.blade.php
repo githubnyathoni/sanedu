@@ -251,7 +251,7 @@
                     <div class="row wow bounceInUp justify-content-center align-self-center mt-5">
 
                     <div class="col-md-5 cta-btn-container text-center mt-4">
-                        <a style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="">DAFTAR SEKARANG</a>
+                        <a style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="/daftar">DAFTAR SEKARANG</a>
                     </div>
 
 
@@ -262,7 +262,7 @@
                     
 
                     <div class="col-md-5 cta-btn-container text-center mt-4">
-                        <a  style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="">VERIFIKASI PEMBAYARAN</a>
+                        <a  style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="/login">VERIFIKASI PEMBAYARAN</a>
                     </div>
 
                 </div>

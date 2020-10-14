@@ -11,13 +11,13 @@ use Livewire\WithPagination;
 class Verifikasi extends Component
 {
     use WithPagination;
-
+    protected $paginationTheme = 'bootstrap';
     public $search_verif;
 
     public function render()
     {
         return view('livewire.verifikasi', [
-            'orders' => $this->search_verif == null ? Order::where('status',1)->get() : Order::where('status',1)->where('id','like','%'.$this->search_verif.'%')->get()
+            'orders' => $this->search_verif == null ? Order::where('status',1)->paginate(10) : Order::where('status',1)->where('id','like','%'.$this->search_verif.'%')->paginate(10)
         ]);
     }
 

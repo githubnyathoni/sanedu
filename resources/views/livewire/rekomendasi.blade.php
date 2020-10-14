@@ -12,7 +12,7 @@
             <th scope="col">Nama</th>
             <th scope="col">Asal Sekolah</th>
             <th scope="col">Email</th>
-            <th scope="col">Nomor WhatsApp</th>
+            <th scope="col">Nomor WA</th>
             <th scope="col">Aksi</th>
           </tr>
         </thead>
@@ -56,22 +56,7 @@
             @endforeach
         </tbody>
     </table>
-
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-end">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
-    </nav>
+    <ul class="pagination justify-content-end">
+      {{ $orders->links() }}
+    </ul>
 </div>

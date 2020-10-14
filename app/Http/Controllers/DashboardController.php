@@ -14,7 +14,6 @@ class DashboardController extends Controller
 {
     public function index(){
         $id = Order::where('user_id', Auth::id())->first();
-        $bank = Bank::where('id', $id->payment)->first();
         $user = User::find(Auth::id());
         $product = Product::first();
         if($user->role == 'admin'){
@@ -26,6 +25,7 @@ class DashboardController extends Controller
                 return view('dashboard-verified')->with('user',$user);
             }
             else{
+                $bank = Bank::where('id', $id->payment)->first();
                 return view('dashboard-v2',compact('bank', 'product'));
             }
         }

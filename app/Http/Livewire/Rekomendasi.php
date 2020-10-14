@@ -5,16 +5,19 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\Models\Order;
 use App\Models\User;
+use Livewire\WithPagination;
 
 class Rekomendasi extends Component
 {
+    use WithPagination;
+    protected $paginationTheme = 'bootstrap';
     public $search_rekom;
     public $recomendation;
 
     public function render()
     {
         return view('livewire.rekomendasi', [
-            'orders' => Order::where('status',2)->get()
+            'orders' => Order::where('status',2)->paginate(10)
         ]);
     }
 
