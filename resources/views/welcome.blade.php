@@ -291,7 +291,7 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h3>Alumni</h3>
+                    <h3>Testimoni</h3>
                 </header>
 
                 <div class="row justify-content-center">
@@ -299,62 +299,134 @@
 
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
-                            <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi1.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Ubay</h3>
-                                <h4>SMA ALkautsar (FKIP Biologi)</h4>
+
+                        <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Okto.png') }}"  class="testimonial-img" alt="">
+                                <h3>Okto Tri Hamda</h3>
+                                <h4>MAN 1 Bandar Lampung (Farmasi – Universitas Indonesia)</h4>
                                 <p>
-                                    "Sanedu itu keren tutornya asik dan aplikasinya juga responsif banget"
+                                    "Melalui program legacy saya dibimbing dan diarahkan dengan sangat teliti dan berdasarkan data yang valid, sampai saya bisa masu UI"
+                                </p>
+                            </div>
+
+                        <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Rafi.png') }}"  class="testimonial-img" alt="">
+                                <h3>Rafi Gutra Aslam</h3>
+                                <h4>SMAN 1 Bandar Lampung (Pendidikan Kedokteran - Universitas Lampung)</h4>
+                                <p>
+                                    "Tau Sanedu dari kawan SMP karena biaya bimbel mahal pas tau sanedu buat program kayak gini coba ikut, ternyata pendampingannya yang kita dapet bagus banget, lengkap dan terstruktur. Kita didampingi berdasarkan data real hasil observasi dan analisis bukan asal asla, Sumpah aku bersyukur banget bisa masuk Kedokteran dari jalur SBMPTN"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Anggie.png') }}"  class="testimonial-img" alt="">
+                                <h3>Anggie Maidita</h3>
+                                <h4>SMA Al Azhar 3 Bandar Lampung (Arsitektur – Universitas Lampung)</h4>
+                                <p>
+                                    "Thanks Sanedu dari program ini saya bisa masuk PTN impian, keren banget strategi yang dikasih, dan bukan cuman kulitnya sampai dasarnya juga ikut dibedah, salutnya lagi strategi yang dikasih antar siswa itu beda beda, tergantung dengan jurusan yang dia pilih dan kemampuan yang dia punya"
                                 </p>
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi2.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Eka</h3>
-                                <h4>SMA 2 Bandar Lampung (Manajemen) </h4>
+                                <img src="{{ asset('css/img/landingpage/testimoni/Divia.jpg') }}"  class="testimonial-img" alt="">
+                                <h3> Divia Laila</h3>
+                                <h4>SMAN 5 Bandar Lampung (Teknik Pertanian – Universitas Lampung) </h4>
                                 <p>
-                                    "Aplikasinya membantu banget dan Sanedu Center jadi solusi untuk belajar apalagi ada jam tambahan tanpa batas"
+                                    "Sempet gak PD untuk ambil UTBK tapi setelah ikut program ini tahu dibagian mana lemahnya, dan dibantu untuk capai target sesuai dengan jurusan yang kita mau"
+                                </p>
+                            </div>
+
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Dzaki.png') }}"  class="testimonial-img" alt="">
+                                <h3>Dzaki Setia Basith</h3>
+                                <h4>SMAN 2 Bandar Lampung (PWK – Universitas Dipenegoro)</h4>
+                                <p>
+                                    "Legacy adalah program pendampingan dari sanedu yang keren banget, semua fasilitasnya berguna banget, thanks sanedu"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Fyra.png') }}"  class="testimonial-img" alt="">
+                                <h3>Fyra Annisya S</h3>
+                                <h4>SMA Al Azhar 3 Bandar Lampung (Kimia – Universitas Lampung)</h4>
+                                <p>
+                                    "Awalnya ikut program ini karena ada tes minat bakatnya, karena masih bingung mau milih jurusan apa, dan ternyata bukan cuman fasilitas itu yang didapet, bahkan kita juga dapet sesi konseling dan analisis nilai rapot untuk persiapan SNMPTN"
                                 </p>
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi3.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Cik Rafa</h3>
-                                <h4>SMA 1 Pringsewu (Biologi)</h4>
+                                <img src="{{ asset('css/img/landingpage/testimoni/Galang.png') }}"  class="testimonial-img" alt="">
+                                <h3>M Galang Bunari</h3>
+                                <h4>SMAN 12 Bandar Lampung (Teknik Elektro – Institut Teknologi Sumatera) </h4>
                                 <p>
-                                    Dulu males banget belajar awalnya bimbel di sanedu dipaksa ibu ternyata asik dan belajarnya gk ngebosenin"
+                                    "Paling gak suka ribet, makanya gak suka matematika, tapi dari program ini gw paham belajar itu gak rumit kok, asal tau strateginya ditambah belajar dengan Miss Febri"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Gilang.png') }}"  class="testimonial-img" alt="">
+                                <h3>M Gilang JMB</h3>
+                                <h4>SMAN 10 Bandar Lampung (Teknik Industri Pertanian – Institut Teknologi Sumatera)</h4>
+                                <p>
+                                    "Banyak yang nawarin program sejenis, tapi kalau kata gue cuman ini yang realistis bahkan strateginya suksesnya disusun sama tim sanedu dengan model yang beda beda tiap siswa sesuai dengan kebutuhan masing masing"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Herviana.png') }}"  class="testimonial-img" alt="">
+                                <h3>Herviana Putri D</h3>
+                                <h4>SMAN 1 Pringsewu (Ilmu Teknologi Hayati – Institut Teknologi Bandung)</h4>
+                                <p>
+                                    "Ikut program ini pas ada yang sosialisasi ke sekolah, kirain cuman tryout biasa aja, pas ikutan ternyata kita dibekalin banyak informasi yang belum kita paham sebelumnya"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Maura.png') }}"  class="testimonial-img" alt="">
+                                <h3>Maura Diviarani</h3>
+                                <h4>SMAN 12 Bandar Lampung (Teknik Informatika – Institut Teknologi Sumatera)</h4>
+                                <p>
+                                   "Legacy menurut aku satu satunya program yang memuat bukan hanya perencanaan materi namun juga perencanaan dari semua aspek untuk sukses SNMPTN dan SBMPTN"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/Sekar.png') }}"  class="testimonial-img" alt="">
+                                <h3>Nabila Sekar</h3>
+                                <h4>SMAN 3 Bandar Lampung (Sosiologi - Universitas Lampung)</h4>
+                                <p>
+                                “Gak nyesel gabung program ini, fasilitasnya lengkap dan harganya terjangkau, sumpah gak akan nyesel yang ikut program ini”
                                 </p>
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi4.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Fika</h3>
-                                <h4>SMA 1 Bandar Sribhawono (Biologi)</h4>
+                                <img src="{{ asset('css/img/landingpage/testimoni/Tiara.png') }}"  class="testimonial-img" alt="">
+                                <h3>Tiara Mega</h3>
+                                <h4>SMAN 12 Bandar Lampung (Teknik Kimia – Institut Teknologi Sumatera)</h4>
                                 <p>
-                                    suka banget belajar di sanedu, selain ada aplikasinya, tutor dan materinya mudah banget dimengerti
+                                    "Jujur sebelum ikut program ini bingung gimana cara sukses masuk PTN, karena info yang aku dapet masuk PTN itu sulit banget, tapi ternyata strategi yang dikasih gak serumit itu, disini kita dibuat bener bener paham, bukan di Takut Takutin"
                                 </p>
                             </div>
+
 
                             <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi5.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Widya</h3>
-                                <h4>SMA 5 Bandar Lampung (Konseling) </h4>
+                                <img src="{{ asset('css/img/landingpage/testimoni/Tyas.png') }}"  class="testimonial-img" alt="">
+                                <h3>Ningtyas Wulandari</h3>
+                                <h4>SMAN 3 Bandar Lampung (Administrasi Bisnis - Universitas Dipenegoro)</h4>
                                 <p>
-                                    Sanedu itu lengkap banget ada aplikasi yang bisa bantu kita belajar dimana aja dan ada juga sanedu center yang bisa buat nanya kalau lewat aplikasi kurang paham
+                                    "Kenal sanedu dari senior SMP jujur sempet ragu awalnya, karena harganya jauh banget dengan bimbel lain, ditambah baru denger ada bimbel sanedu, tapi jujur ternyata keren abis, kita didampingi dari dasar banget, menurut aku ini program pendampingan terbaik Se-Indonesia"
                                 </p>
                             </div>
 
-                            <div class="testimonial-item">
-                                <img src="{{ asset('css/img/landingpage/testimoni/testi6.jpg') }}"  class="testimonial-img" alt="">
-                                <h3>Azalia</h3>
-                                <h4>SMA Alkautsar (Manajemen)</h4>
-                                <p>
-                                    Dulu sempet gagal masuk jurusan yang diimpikan, akhirnya nyoba lagi berkat bantuan sanedu bisa masuk jurusan mamajemen seperti impian
-                                </p>
                             </div>
-
-                        </div>
-
                     </div>
                 </div>
 
@@ -538,6 +610,33 @@
         </section><!-- #call-to-action -->
 
 
+
+        <section id="video-promotion" class="wow fadeIn mt-5 mb-5" >
+           
+           </div> 
+            <div class="container-fluid ">
+
+               <header class="section-header" style="width:80%; display:block; margin:auto; margin-bottom:40px;">
+                   <h3>Acara Puncak Legacy Project 2019</h3>
+               </header>
+
+               <div class="row justify-content-md-center">
+
+                
+               <div class="col-md-9">
+
+
+                 
+                                            <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mxw05V9fdZU?rel=0" allowfullscreen></iframe>
+                        </div>
+
+                   </div>
+
+               </div>
+           </div> 
+       </section>
+
         <section style="background-color: #006da6; padding-bottom: 80px;" id="main" class="clearfix">
 
         <div class="container-fluid">
@@ -559,7 +658,7 @@
                     <div class="row wow bounceInUp justify-content-center align-self-center mt-5">
 
                     <div class="col-md-6 cta-btn-container text-center mt-4">
-                        <a style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="">DAFTAR SEKARANG</a>
+                        <a style="font-weight: 600; border-radius:60px; padding:15px; background: #ffffff;" class="cta-btn align-middle " href="{{ url('/daftar') }}">DAFTAR SEKARANG</a>
                     </div>
 
 
