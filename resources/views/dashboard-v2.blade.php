@@ -80,7 +80,7 @@
           </tr>
           <tr>
             <td>ke Bank</td>
-            <td>BRI a.n. {{$bank->nama}}</td>
+            <td>{{$bank->bank}} a.n. {{$bank->nama}}</td>
           </tr>
           <tr>
             <td>Total Biaya</td>
