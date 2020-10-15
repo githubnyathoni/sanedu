@@ -37,31 +37,37 @@
             </div>
         </div>
         <div class="card-body">
-            <div class="row">
+        <div class="row">
                 <div class="col-sm-2 col-md-2">
                     <img src="{{ asset('logo_legacy_2.png')}}" width="100px"/>
                 </div>
-                <div class="col-sm-8 col-md-8">
+
+            </div>
+            <div class="row justify-content-between">
+                <!-- <div class="col-sm-2 col-md-2">
+                    <img src="{{ asset('logo_legacy_2.png')}}" width="100px"/>
+                </div> -->
+                <div class="col-6 mt-1">
                     <p class="font-weight-bold">Legacy Project III</p>
                 </div>
-                <div class="col-sm-2 col-md-2">
+                <div class="col-6 mt-1">
                     <p class="text-right font-weight-bold">@currency($product->price)</p>
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="col-2 mt-1">
+                <div class="col-6 mt-1">
                     <p class="text-left">Diskon 90%</p>
                 </div>
-                <div class="col-2 mt-1">
+                <div class="col-6 mt-1">
                     <p class="font-weight-bold text-right text-danger">- @currency($product->price*0.9)</p>
                 </div>
             </div>
             <hr>
             <div class="row justify-content-between">
-                <div class="col-2">
+                <div class="col-6">
                     <p class="font-weight-bold text-left">Total</p>
                 </div>
-                <div class="col-2">
+                <div class="col-6">
                     <p class="font-weight-bold text-right">Rp. 250.000</p>
                 </div>
             </div>

@@ -19,14 +19,21 @@
     </div>
 </nav>
 
+
+
 <div class="container">
+
     <div class="d-flex justify-content-center mt-5">
         <h4>Verifikasi Pembayaran</h4>
     </div>
 
-    <div class="card mt-5 shadow bg-white rounded w-50 mx-auto">
-        <div class="card-body text-center">
-            <h5>Unggah bukti pembayaran</h5>
+<div class="row">
+
+<div class="col-md-8 col-sm-12 mx-auto mt-1">
+
+<div class="card mt-2 shadow bg-white rounded">
+        <div class="card-body">
+            <h5 style="text-align:center">Unggah bukti pembayaran</h5>
             <form method="POST" action="{{ route('verifikasi_store')}}" enctype="multipart/form-data">
                 @csrf
                 <input class="mt-4" type="file" name="image" accept="image/*" required>
@@ -35,8 +42,10 @@
             </form>
         </div>
     </div>
+</div>
+<div class="col-md-8 col-sm-12 mx-auto mt-1">
 
-    <div class="card mt-5 shadow rounded w-50 mx-auto" style="background-color:#e8f8eb;">
+    <div class="card mt-5 shadow rounded shadow mx-auto" style="background-color:#e8f8eb;">
         <div class="card-body text-center">
             <p style="color: green">Verifikasi pesanan anda akan kami proses dalam 60 menit dan selambat-lambatnya 1x24 jam.</p>
             <h6 style="color: green">Hubungi kami jika kamu memiliki kendala.</h6>
@@ -44,4 +53,7 @@
         </div>
     </div>
 </div>
+</div>
+</div>
+
 @endsection

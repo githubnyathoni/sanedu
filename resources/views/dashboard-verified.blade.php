@@ -24,7 +24,11 @@
         <h3>Selamat Datang, {{ Auth::user()->name }}</h3>
     </div>
 
-    <table class="table table-hover w-75 mt-5 mx-auto shadow bg-white rounded">
+<div class="row">
+
+<div class="col-md-8 col-sm-12 mx-auto mt-1">
+
+    <table class="table table-hover mt-5 mx-auto shadow bg-white rounded">
         <tbody>
             <tr>
                 <td>Kode Try Out</td>
@@ -62,13 +66,18 @@
         </tbody>
     </table>
 
+</div>
     
-    <div class="card mt-5 mb-5 mx-auto shadow bg-white rounded w-75">
+
+<div class="col-md-8 col-sm-12 mx-auto mt-1">  
+    <div class="card mt-5 mb-5 mx-auto shadow bg-white rounded">
         <div class="card-body">
             <h6 class="card-title">Rekomendasi Strategi</h6>
             <p>{{$user->recomendation}}</p>
         </div>
     </div>
+</div>
+
 </div>
 @endsection
 
