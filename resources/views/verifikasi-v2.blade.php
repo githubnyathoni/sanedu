@@ -23,8 +23,10 @@
     <div class="d-flex justify-content-center mt-5">
         <h4>Menunggu Verifikasi Pembayaran</h4>
     </div>
+  <div class="row">
 
-    <div class="card mt-5 shadow rounded w-50 mx-auto" style="background-color:#e8f8eb;">
+    <div class="col-md-8 col-sm-12 mx-auto mt-1">
+    <div class="card mt-5 shadow rounded  mx-auto" style="background-color:#e8f8eb;">
         <div class="card-body text-center">
             <p style="color: green">Verifikasi pesanan anda akan kami proses dalam 60 menit dan selambat-lambatnya 1x24 jam.</p>
             <h6 style="color: green">Hubungi kami jika kamu memiliki kendala.</h6>
@@ -32,4 +34,9 @@
         </div>
     </div>
 </div>
+</div>
+</div>
+
+
+
 @endsection
