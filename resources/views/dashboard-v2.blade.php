@@ -101,7 +101,7 @@
         <li>Setelah melakukan konfirmasi pembayaran, verifikasi pesanan Anda akan kami proses dalam 60 menit dan selambat-lambatnya 1x24 jam.</li>
         <li>Pembayaran diatas jam 21:00 WIB akan diproses hari berikutnya.</li>
         <li>Data pembelian dan petunjuk pembayaran juga sudah kami kirim ke email Anda, silakan cek email dari kami di inbox, promotion, dan atau di folder spam.</li>
-        <li>Hubungi <a href="https://api.whatsapp.com/send/?phone=6287895493904&text=Halo%21+Saya+membutuhkan+bantuan+terkait+pembayaran+Sanedu." target="_blank" type="button" class="btn btn-primary btn-sm mt-2 justify-center">Bantuan</a> jika memiliki kendala.</li>
+        <li>Hubungi kami jika anda memiliki kendala atau pertanyaan terkait pembayaran. <a href="https://api.whatsapp.com/send/?phone=6287895493904&text=Halo%21+Saya+membutuhkan+bantuan+terkait+pembayaran+Sanedu." target="_blank" type="button" class="btn btn-primary btn-sm mt-2 justify-center">Bantuan</a></li>
     </ul>
     
     <hr class=" mb-5">
