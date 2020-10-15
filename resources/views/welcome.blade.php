@@ -190,7 +190,7 @@
           <div class="row justify-content-center align-self-center">
           <div class="col-md-2 intro-info order-md-last order-first">
                 <img id="logo" src="{{ asset('css/img/landingpage/Logo Legacy.png') }}"  alt="" style=" max-width:165px; max-height:220px;" class="img-fluid mx-auto d-block">
-                <p style="text-align:center; color: #ffffff;" >Welcome to</p>
+        
             </div>
 
             </div>
