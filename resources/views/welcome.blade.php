@@ -426,6 +426,66 @@
                                 </p>
                             </div>
 
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/prima.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3>Prima Yustisio</h3>
+                                <h4>SMAN 16 Bandar Lampung (PWK – Institut Teknologi Sumatera)</h4>
+                                <p>
+                                    "Dulu ising ikut tryout gratis sanedu, eh nilainya jelek banget, tiba tiba ada kakak konsultan belajarnya yang nge chat untuk ngajak diskusi, isi diskusinya berbobot banget dan ditawarin ikut program ini, ternyata pas join parah isinya bener bener berbobot dan ternyata analisis dan strateginya efektif banget buat saya bisa masuk ke PTN"
+                                </p>
+                            </div>
+
+
+                            
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/dara.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3>Dara Pujiandini</h3>
+                                <h4>SMAN 16 Bandar Lampung (Ilmu Hukum – Universitas Lampung)</h4>
+                                <p>
+                                    "Makasih banyak sanedu, aku dari nol banget belajar di sanedu, sempet drop pas gak keterima SNMPTN, diskusi dan didampingi dengan konsultan belajar yang keren banget, sabar banget untuk ngebimbing aku, dan sampai nilai UTBK aku lolos target dan bisa keterima di jalur SBMPTN"
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/darel.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3>Reymon Darrel</h3>
+                                <h4>SMAN 3 Bandar Lampung (PWK – Institut Teknologi Sumatera)</h4>
+                                <p>
+                                    "Makasih banget untuk sanedu dengan berbagai programnya, legacy adalah salah satu program sanedu yang gw ikutin, keren banget dan mencerdaskan bukan buat kita down tapi buat kita percaya diri dan paham apa yang harus kita lakuin, makasih strategi dan analisisnya"
+                                </p>
+                            </div>
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/raya.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3>M Rayya Andisa Putra</h3>
+                                <h4>SMAN 9 Bandar Lampung (Teknik Geofisika – Universitas Lampung)</h4>
+                                <p>
+                                    "Kalau kalian ngerasa SNMPTN atau UTBK itu mudah sumpah jujur gak, butuh persiapan dan banyak juga info yang menyesatkan, di program ini kalian bakal diarahin dengan informasi yang valid ditambah metode yang efektif banget, gw dan puluhan temen gw yang ikut terbukti lolos SNMPTN dan SBMPTN 2020"
+                                </p>
+                            </div>
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/krisna.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3> Krisna Riandru</h3>
+                                <h4>SMAN 3 Bandar Lampung (Ilmu Hukum – Universitas Lampung)</h4>
+                                <p>
+                                    "Satu kesan yang paling gw inget adalah kata kata CEO sanedu, selama itu bukan tuhan dan nabi pasti bisa kita lampaui, bener banget konsep dasar yang kayak gitu, motovasi dan spirit yang di tularin itu baut semua temen temen yang ikut termasuk saya jadi paham apa yang harus dilakukan dan bagaimana caranya, soal HOTS bukan tandingan siswa sanedu pokonya"
+                                </p>
+                            </div>
+
+                            <div class="testimonial-item">
+                                <img src="{{ asset('css/img/landingpage/testimoni/nurdien.jpeg') }}"  class="testimonial-img" alt="">
+                                <h3>Nurdien</h3>
+                                <h4>SMAN 10 Bandar Lampung (Administrasi Negara – Universitas Sumatera Utara)</h4>
+                                <p>
+                                    "Bah aku rasa program sanedu ini keren kali, dari malam belajar sekali ikut konseling jadi sadar mau apa yang dilakuin, makasih banyak tutor dan konsultan di sanedu, karena kalian aku sekarang jadi orang medan"
+                                </p>
+                            </div>
+
+
                             </div>
                     </div>
                 </div>
