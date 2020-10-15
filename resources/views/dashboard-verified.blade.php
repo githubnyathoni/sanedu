@@ -73,7 +73,11 @@
     <div class="card mt-5 mb-5 mx-auto shadow bg-white rounded">
         <div class="card-body">
             <h6 class="card-title">Rekomendasi Strategi</h6>
-            <p>{{$user->recomendation}}</p>
+            @if($user->recomendation == null)
+                <p>Belum ada rekomendasi, harap tunggu hingga program selesai.</p>
+            @else
+                <p>{{$user->recomendation}}</p>
+            @endif
         </div>
     </div>
 </div>
