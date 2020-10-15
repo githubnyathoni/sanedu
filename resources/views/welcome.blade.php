@@ -214,7 +214,7 @@
                 </div>
 
             <div class="col-md-6 mt-5 intro-info order-md-last order-first">
-                    <h2  style="color: #ffffff; font-weight:600; font-size:28px; text-align: center">Program Sukses SNMPTN dan UTBK<span style="color:#f7a422;"> 2020 / 2021</span></h2>
+                    <h2  style="color: #ffffff; font-weight:600; font-size:28px; text-align: center">Program Pendamping SNMPTN dan UTBK<span style="color:#f7a422;"> 2020 / 2021</span></h2>
                     <div class="row justify-content-center align-self-center">
 
                             <div class="col-md-3 col-lg-3 wow bounceInUp justify-content-center align-self-center" data-wow-duration="1.4s">

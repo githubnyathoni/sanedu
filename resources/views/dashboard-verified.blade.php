@@ -21,7 +21,7 @@
 
 <div class="container">
     <div class="d-flex justify-content-center mt-5">
-        <h3>Selamat Datang, {{ Auth::user()->name }}</h3>
+        <h4>Selamat Datang, {{ Auth::user()->name }}</h4>
     </div>
 
 <div class="row">
