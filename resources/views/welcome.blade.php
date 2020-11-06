@@ -526,7 +526,7 @@
 
 
 
-                        <div class="why-us-content" style="border: #006da6 3px solid; padding:30px; height: 500px; ">
+                        <div class="why-us-content" style="border: #006da6 3px solid; padding:30px; height: 600px; ">
                         <ul >
                             <li style="padding:5px; ">Analisis Kompetensi Umum</li>
                             <li style="padding:5px; ">Tes Minat Bakat</li>
@@ -539,6 +539,8 @@
                             <li style="padding:5px; ">Data Passing Grade</li>
                             <li style="padding:5px; ">Buku Sakti Lulus UTBK</li>
                             <li style="padding:5px; ">Analisis Berbasis Data</li>
+                            <li style="padding:5px; ">Evaluasi dan Konseling secara tatap muka</li>
+                            <li style="padding:5px; ">Penginapan saat mengikuti UTBK<sup>*</sup></li>
                             <li style="padding:5px; ">Garansi Uang Kembali 100%<sup>*</sup></li>
                             </ul>
                         </div>
@@ -553,7 +555,7 @@
                             <header class="section-header" style="text-align: center;">
                             <h4>Program Lain</h3>
                         </header>
-                        <div class="why-us-content" style="border: #006da6 3px solid; padding:30px;  height: 500px;">
+                        <div class="why-us-content" style="border: #006da6 3px solid; padding:30px;  height: 600px;">
                       
                         <ul>
                             <li style="padding:5px; ">Video Pembahasan</li>

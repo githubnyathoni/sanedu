@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\User;
+use App\Models\Order;
 use Hash;
 use Livewire\WithPagination;
 
@@ -26,5 +27,12 @@ class UbahPassword extends Component
     {
         User::find($id)->update(['password' => Hash::make($this->change_pass)]);
         session()->flash('success','Password berhasil diubah!');
+    }
+
+    public function delete($id)
+    {
+        Order::where('user_id',$id)->delete();
+        User::find($id)->delete();
+        session()->flash('success','User berhasil dihapus!');
     }
 }

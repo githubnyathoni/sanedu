@@ -29,7 +29,7 @@
                     <strong>{{ $message }}</strong>
                 </div>
             @endif
-            @foreach($orders as $order)
+            @forelse($orders as $order)
             <tr>
                 <td>#{{$order->id}}</td>
                 <td>{{$order->user->name}}</td>
@@ -102,7 +102,9 @@
                     </a>
                 </td> 
             </tr>
-            @endforeach
+            @empty
+                <h6 class="text-center">Data Tidak Ditemukan</h6>
+            @endforelse
         </tbody>
     </table>
     <ul class="pagination justify-content-end">

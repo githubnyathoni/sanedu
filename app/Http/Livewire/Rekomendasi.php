@@ -6,13 +6,19 @@ use Livewire\Component;
 use App\Models\Order;
 use App\Models\User;
 use Livewire\WithPagination;
+use App\Http\Livewire\Model;
 
 class Rekomendasi extends Component
 {
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
-    public $search_rekom;
+    public $search_rekom, $orders;
     public $recomendation;
+
+    public function mount()
+    {
+        $this->orders = Order::where('status',2)->get();
+    }
 
     public function render()
     {

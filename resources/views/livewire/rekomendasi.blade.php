@@ -56,7 +56,7 @@
             @endforeach
         </tbody>
     </table>
-    <ul class="pagination justify-content-end">
+    {{-- <ul class="pagination justify-content-end">
       {{ $orders->links() }}
-    </ul>
+    </ul> --}}
 </div>

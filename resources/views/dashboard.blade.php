@@ -103,6 +103,14 @@
                             <h5>Privacy Policy</h5>
                             <p class="text-justify">Seluruh data user dan hasil analisis user berhak dipergunakan Sanedu Indonesia dalam hal kepentingan Sanedu Indonesia, baik untuk promosi, pengumpulan testimony, survei dan hal hal lain yang berkaitan dengan proses usaha Sanedu Indonesia. Dan sanedu wajib menjaga kerahasiaan data data tersebut yang dapat disalahgunakan oleh pihak lain. Sanedu Indonesia juga tidak ada kewajiban apapun kepada user dalam hal penggunaan data untuk kepentingan Sanedu Indonesia.</p>
                             <p class="text-justify">Kebijakan ini tidak mengikat dan Sanedu Indonesia berhak untuk melakukan berbagai perubahan di masa mendatang.</p>
+                            <h5>Ketentuan Garansi Uang kembali</h5>
+                            <ol>
+                                <li><p class="text-justify">Garansi uang kembali hanya berlaku untuk pembayaran lunas</p></li>
+                                <li><p class="text-justify">Garansi uang kembali hanya berlaku jika user merasa tidak puas atas pelayanan Sanedu setelah mengikuti program selama 2 minggu terhitung setelah dimulainya program, jika lebih dari 2 minggu setelah program dimulai user tidak ada keluhan maka garansi uang kembali tidak berlaku lagi.</p></li>
+                                <li><p class="text-justify">Jika dalam waktu kurang dari 2 minggu user tidak mengikuti 1 saja fasilitas yang diberikan maka secara otomatis garansi dianggap hangus</p></li>
+                            </ol>
+                            <h5>Penginapan saat UTBK</h5>
+                            <p class="text-justify">Bantuan penginapan saat UTBK hanya berlaku untuk siswa yang berdomisili di luar Kota Bandar Lampung, serta siswa yang bersangkutan berada pada peringkat 1 sampai 50 yang ditentukan berdasarkan peringkat akumulasi tryout selama program.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

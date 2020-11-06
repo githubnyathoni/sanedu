@@ -1,4 +1,9 @@
 @extends('layouts.master')
+@section('css')
+<link href="{{asset('css/all.min.css') }}" rel="stylesheet">
+<link href="{{asset('css/fontawesome.min.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+@endsection
 @section('content')
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d2d5dc;">
     <a href="\"><img class="navbar-brand" src="{{ asset('logo.png')}}"></a>
